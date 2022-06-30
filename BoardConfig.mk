@@ -27,5 +27,8 @@ ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/nfc/manifest_nfc.xml
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := moonstone
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Inherit from the proprietary version
 include vendor/xiaomi/moonstone/BoardConfigVendor.mk
