@@ -612,6 +612,15 @@ vendor/firmware/wigig/wigig.ini
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
+# NFC
+vendor/bin/STFlashTool
+vendor/etc/libnfc-hal-st.conf
+vendor/etc/libnfc-nci.conf
+vendor/etc/st21nfc_conf.txt
+vendor/lib/libsn100u_fw.so
+vendor/lib64/libstfactory-vendor.so
+vendor/lib64/nfc_nci.st21nfc.st.so
+
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/init.qcom.sensors.sh

@@ -16,6 +16,10 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_moonstone
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_moonstone
 
+# ODM Manifest
+ODM_MANIFEST_SKUS += nfc
+ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/nfc/manifest_nfc.xml
+
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := moonstone
 
