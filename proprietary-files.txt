@@ -519,7 +519,9 @@ vendor/firmware/evass.mdt
 # Firmware - Touch
 vendor/firmware/focaltech_mp_fw_sdc.ini
 vendor/firmware/focaltech_ts_fw_.bin
-vendor/firmware/focaltech_ts_fw_sdc.bin
+
+# Firmware Touchscreen - from moonstone MIUI V14.0.4.0.TMPIDXM release-keys
+vendor/firmware/focaltech_ts_fw_sdc.bin|636ef0476ea0ccb4a9de16cc17f49d8b58419c21
 
 # Firmare - IPA
 vendor/firmware/ipa_fws.b00
