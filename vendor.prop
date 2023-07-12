@@ -2,5 +2,8 @@
 persist.sys.sf.color_mode=9
 persist.sys.sf.native_mode=2
 
+# NFC
+ro.vendor.nfc.repair=1
+
 # Soc
 ro.soc.model=SM6375
