@@ -22,7 +22,7 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_moonstone
 
 # ODM Manifest
 ODM_MANIFEST_SKUS += nfc
-ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/nfc/manifest_nfc.xml
+ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/configs/nfc/manifest_nfc.xml
 
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := moonstone,sunstone
