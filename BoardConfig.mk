@@ -25,7 +25,7 @@ ODM_MANIFEST_SKUS += nfc
 ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/nfc/manifest_nfc.xml
 
 # OTA Assert
-TARGET_OTA_ASSERT_DEVICE := moonstone
+TARGET_OTA_ASSERT_DEVICE := moonstone,sunstone
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
