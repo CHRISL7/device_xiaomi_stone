@@ -1,13 +1,15 @@
-#  Device Tree for POCO X5 5G (moonstone)
+#  Device Tree for POCO X5 5G (moonstone) / Redmi Note 12 5G | Note 12R Pro ( sunstone )
 
 ## Spec Sheet
 
 | Feature                 | Specification                                                              |
 | :---------------------- | :--------------------------------                                          |
-| CPU                     | Octa-core (2x2.2 GHz Kryo 660 Gold & 6x1.7 GHz Kryo 660 Silver)            |
-| Chipset                 | Qualcomm SM6375 Snapdragon 695 5G (6 nm)                                     |
+| CPU moonstone | Octa-core (2x2.2 GHz Kryo 660 Gold & 6x1.7 GHz Kryo 660 Silver)            |
+| CPU sunstone     | Octa-core (2x2.0 GHz Cortex-A78 & 6x1.8 GHz Cortex-A55)                  |
+| Chipset moonstone   | Qualcomm SM6375 Snapdragon 695 5G (6 nm)                                     |
+| Chipset sunstone       | Qualcomm SM4375 Snapdragon 4 Gen 1 (6 nm)                                     |
 | GPU                     | Adreno 619                                                                 |
-| Memory                  |  6 GB / 8GB                                                               |
+| Memory                  |  4 GB / 6 GB / 8GB                                                         |
 | Shipped Software        | Android 12, MIUI 13                                                        |
 | Storage                 | 128 GB / 256 GB                                                             |
 | Battery                 | 5000 mAh                                                                   |
