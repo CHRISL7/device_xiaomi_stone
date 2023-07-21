@@ -62,8 +62,11 @@ service stflashtool /vendor/bin/STFlashTool
     user nfc
     oneshot
 
-on property:ro.boot.product.hardware.sku=nfc
+on post-fs-data
+    mkdir /data/vendor/nfc 0770 nfc nfc
+
+on boot && property:ro.boot.product.hardware.sku=nfc
     start nfc_hal_service
 
-on property:ro.boot.product.hardware.sku=nfc
+on post-fs && property:ro.boot.product.hardware.sku=nfc
     start stflashtool
