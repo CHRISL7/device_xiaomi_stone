@@ -20,7 +20,7 @@ static const variant_info_t moonstone_global_info = {
     .name = "moonstone_global",
     .build_fingerprint = "POCO/moonstone/moonstone:11/TKQ1.221114.001/V14.0.3.0.TMPMIXM:user/release-keys",
 
-    .nfc = true,
+    .nfc = false,
 };
 
 static const variant_info_t moonstone_p_global_info = {
@@ -48,7 +48,7 @@ static const variant_info_t sunstone_info = {
     .name = "sunstone",
     .build_fingerprint = "Redmi/sunstone/sunstone:11/TKQ1.221013.002/V14.0.4.0.TMQMIXM:user/release-keys",
 
-    .nfc = true,
+    .nfc = false,
 };
 
 static const variant_info_t sunstone_global_info = {
