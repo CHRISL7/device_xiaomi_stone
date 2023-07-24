@@ -1,3 +1,6 @@
+# Audio
+persist.sys.audio.para_version=M17-Audiopara-global-V20-20230609
+
 # Display
 persist.sys.sf.color_mode=9
 persist.sys.sf.native_mode=2

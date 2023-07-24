@@ -23,6 +23,6 @@ PRODUCT_MODEL := POCO X5 5G
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="moonstone-user 13 TKQ1.221114.001 V14.0.3.0.TMPMIXM release-keys"
+    PRIVATE_BUILD_DESC="moonstone-user 13 TKQ1.221114.001 V14.0.4.0.TMPMIXM release-keys"
 
-BUILD_FINGERPRINT := POCO/moonstone_p_global/moonstone:13/TKQ1.221114.001/V14.0.3.0.TMPMIXM:user/release-keys
+BUILD_FINGERPRINT := POCO/moonstone_p_global/moonstone:13/TKQ1.221114.001/V14.0.4.0.TMPMIXM:user/release-keys

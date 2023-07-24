@@ -48,6 +48,30 @@ on boot
     # for thermal
     chmod 0777 /sys/class/power_supply/bq25890_charger/constant_charge_current_max
 
+    chmod 0777 /sys/bus/coresight/devices/coresight-tmc-etr/block_size
+    chmod 0777 /dev/byte-cntr
+
+    # IR
+    chown system system /dev/lirc0
+    chmod 0666 /dev/lirc0
+
+    # HBM/AOD
+    chmod 0777 /sys/class/drm/card0-DSI-1/disp_param
+    chmod 0777 /sys/class/drm/card0-DSI-1/mipi_reg
+
+    # touch
+    chown system system /sys/class/touch/touch_dev/palm_sensor
+    chmod 0664 /sys/class/touch/touch_dev/palm_sensor
+
+on property:sys.tp.grip_enable=0
+    write /sys/devices/platform/soc/4c88000.i2c/i2c-2/2-0038/fts_edge_mode 0
+
+on property:sys.tp.grip_enable=90
+    write /sys/devices/platform/soc/4c88000.i2c/i2c-2/2-0038/fts_edge_mode 1
+
+on property:sys.tp.grip_enable=270
+    write /sys/devices/platform/soc/4c88000.i2c/i2c-2/2-0038/fts_edge_mode 2
+
 # NFC
 service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service.st
     override
