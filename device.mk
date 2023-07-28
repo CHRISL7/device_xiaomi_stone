@@ -4,7 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_SHIPPING_API_LEVEL := 30
+# API
+BOARD_SHIPPING_API_LEVEL := 30
+BOARD_API_LEVEL := 30
+
+SHIPPING_API_LEVEL := 30
+PRODUCT_SHIPPING_API_LEVEL := $(SHIPPING_API_LEVEL)
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
