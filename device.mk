@@ -38,7 +38,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Rootdir
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/etc/init.xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.xiaomi.rc
+    $(LOCAL_PATH)/init/init.xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.xiaomi.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \
