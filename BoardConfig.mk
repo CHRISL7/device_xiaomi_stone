@@ -6,9 +6,6 @@
 
 DEVICE_PATH := device/xiaomi/moonstone
 
-# Inherit from sm6375-common
-include device/xiaomi/sm6375-common/BoardConfigCommon.mk
-
 # Display
 TARGET_SCREEN_DENSITY := 440
 
@@ -28,3 +25,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit from the proprietary version
 include vendor/xiaomi/moonstone/BoardConfigVendor.mk
+
+# Inherit from sm6375-common
+include device/xiaomi/sm6375-common/BoardConfigCommon.mk

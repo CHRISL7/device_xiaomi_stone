@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from sm6375-common
-$(call inherit-product, device/xiaomi/sm6375-common/holi.mk)
-
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Device uses high-density artwork where available
@@ -48,3 +45,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/moonstone/moonstone-vendor.mk)
+
+# Inherit from sm6375-common
+$(call inherit-product, device/xiaomi/sm6375-common/holi.mk)
