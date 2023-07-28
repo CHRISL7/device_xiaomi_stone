@@ -9,10 +9,6 @@ DEVICE_PATH := device/xiaomi/moonstone
 # Inherit from sm6375-common
 include device/xiaomi/sm6375-common/BoardConfigCommon.mk
 
-# Build Broken
-BUILD_BROKEN_DUP_RULES := true
-BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
-
 # Display
 TARGET_SCREEN_DENSITY := 440
 
