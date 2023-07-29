@@ -614,7 +614,6 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # NFC
 vendor/bin/STFlashTool
-vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci.conf
 vendor/etc/st21nfc_conf.txt
 vendor/lib/libsn100u_fw.so
