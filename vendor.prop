@@ -1,5 +1,9 @@
 # Audio
 persist.sys.audio.para_version=M17-Audiopara-global-V20-20230609
 
+# Display
+ro.surface_flinger.set_touch_timer_ms=200
+vendor.display.defer_fps_frame_count=2
+
 # NFC
 ro.vendor.nfc.repair=1
