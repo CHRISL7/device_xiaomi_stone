@@ -1,13 +1,10 @@
-//
-// Copyright (C) 2023 The LineageOS Project
-//
-// SPDX-License-Identifier: Apache-2.0
-//
-
 cc_library_static {
-    name: "init_xiaomi_moonstone",
-    srcs: ["init_xiaomi_moonstone.cpp"],
-    whole_static_libs: ["//device/xiaomi/sm6375-common:libinit_xiaomi_holi"],
-    include_dirs: ["system/core/init"],
+    name: "libinit_moonstone",
+    srcs: ["init_moonstone.cpp"],
     recovery_available: true,
+    whole_static_libs: ["libbase"],
+    include_dirs: [
+        "system/core/init",
+        "system/libbase/include"
+    ]
 }

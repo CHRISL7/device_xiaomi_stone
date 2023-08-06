@@ -10,8 +10,8 @@ DEVICE_PATH := device/xiaomi/moonstone
 TARGET_SCREEN_DENSITY := 440
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_moonstone
-TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_moonstone
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_moonstone
+TARGET_RECOVERY_DEVICE_MODULES := libinit_moonstone
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 3

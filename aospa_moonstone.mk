@@ -25,7 +25,7 @@ PRODUCT_MODEL := POCO X5 5G
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=moonstone_global
+    TARGET_PRODUCT=moonstone_p_global
 
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
