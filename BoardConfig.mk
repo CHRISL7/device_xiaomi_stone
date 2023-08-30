@@ -35,6 +35,12 @@ BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE)
 BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --dtb $(DEVICE_PATH)-kernel/dtb.img
 
+TARGET_FORCE_PREBUILT_KERNEL := true
+TARGET_KERNEL_CONFIG := holi_QGKI
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6375
+TARGET_KERNEL_HEADERS := kernel/xiaomi/sm6375
+TARGET_PREBUILT_DTB :=
+
 # Vintf Manifest
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/vintf/xiaomi_framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/xiaomi_manifest.xml

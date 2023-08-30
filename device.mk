@@ -61,7 +61,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAStoneOverlay \
     StoneFrameworksOverlay \
     StoneSettingsOverlay \
     StoneSystemUIOverlay
